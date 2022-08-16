@@ -17,7 +17,7 @@ export default function Home() {
   {/* <a className="foo" target="_blank" rel="noopener noreferrer">
   this page!
       </a> */}
-      this page!
+      this page//!
     </Link>
 
     
