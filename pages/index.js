@@ -6,18 +6,38 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div className="container">
-      <Head>
-        <title>Createeee Next Apprrr</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
-      <main>
-      <h1 className="title">
-  Read <Link href="/posts/first-post">
+<h1>Новая христианская церковь</h1>
+ <h2>
+        {/* <Link href="/"> */}
+        {/* <a className="foo" target="_blank" rel="noopener noreferrer">
+        Back to home
+      </a>
+       home
+            </Link> */}
+         <Link href="/homepage/menu_ru/menu">
   {/* <a className="foo" target="_blank" rel="noopener noreferrer">
   this page!
       </a> */}
-      this page//!
+      Русский язык
+
+    </Link>
+      </h2>
+
+
+      {/* <Head>
+        <title>Createeee Next Apprrr</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head> */}
+
+      {/* <main>
+      <h4 className="title">
+ <Link href="/homepage/menu_ru/menu">
+  {/* <a className="foo" target="_blank" rel="noopener noreferrer">
+  this page!
+      </a> */}
+      {/* Русский язык
+
     </Link>
 
     
@@ -26,24 +46,24 @@ export default function Home() {
 
 
 
-</h1>
-<Image
+</h4> */} 
+{/* <Image
 
       src="/images/profile.jpg" // Route of the image file
       height={144} // Desired size with correct aspect ratio
       width={144} // Desired size with correct aspect ratio
       alt="Your Name"
-    />
+    /> */}
  
 
 
 
 
-        <p className="description">
+        {/* <p className="description">
           Get started by editing <code>pages/index.js</code>
-        </p>
+        </p> */}
 
-        <div className="grid">
+        {/* <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
             <h3>Documentation &rarr;</h3>
             <p>Find3 in-depth information about Next.js features and API.</p>
@@ -71,8 +91,8 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-        </div>
-      </main>
+        </div> */}
+      {/* </main> */}
 
       <footer>
         <a
