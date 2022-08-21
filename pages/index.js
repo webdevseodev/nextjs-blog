@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="container">
 
-<h1>Новая христианская церковь3</h1>
+<h1>Новая христианская церковь</h1>
  <h2>
         {/* <Link href="/"> */}
         {/* <a className="foo" target="_blank" rel="noopener noreferrer">
