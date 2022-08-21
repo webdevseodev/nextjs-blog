@@ -1,49 +1,25 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import Layout from '../../../components/layout';
+import Link from "next/link";
+import Image from "next/image";
+import Layout from "../../../components/layout";
+import utilStyles from "../../../styles/utils.module.css";
+
+
+
 
 export default function Menu() {
   return (
     <Layout>
-      {/* <h1>Меню</h1> */}
-    
+     
+      <div className={utilStyles.menu}>
       <h2>
-        <Link href="/">
-        {/* <a className="foo" target="_blank" rel="noopener noreferrer">
-        Back to home
-      </a> */}
-      На главную
-            </Link>
-           
+        <Link href="/">На главную</Link>
       </h2>
+      </div>
+      <div className={utilStyles.menu}>
       <h2>
-<Link href="/homepage/menu_ru/o_boge">
-  {/* <a className="foo" target="_blank" rel="noopener noreferrer">
-  this page!
-      </a> */}
-О Боге
-
-    </Link>
-
-</h2>
-
-      
-    
-      {/* <Image
-
-src="/images/profile.jpg" // Route of the image file
-height={144} // Desired size with correct aspect ratio
-width={144} // Desired size with correct aspect ratio
-alt="Your Name"
-/> */}
-
-
-
+        <Link href="/homepage/menu_ru/o_boge">О Боге</Link>
+      </h2>
+      </div>
     </Layout>
-
-
-
-
-
   );
 }
