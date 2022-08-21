@@ -1,9 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
+import Layout from "../../../components/layout";
 
 export default function Shablon() {
   return (
-    <>
+    <Layout>
       <h1>О Боге</h1>
 
       <h2>
@@ -22,6 +23,6 @@ export default function Shablon() {
           Назад
         </Link>
       </h2>
-    </>
+    </Layout>
   );
 }

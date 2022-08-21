@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import Layout from '../../../components/layout';
 
 export default function OBoge() {
   return (
-    <>
+    <Layout>
       <h1>О Боге</h1>
     
       <h2>
@@ -874,7 +875,7 @@ VI. Все, что создано, конечное, и Бесконечное �
 </div>
 
 
-    </>
+    </Layout>
 
 
 
