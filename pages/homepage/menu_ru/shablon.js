@@ -1,20 +1,21 @@
 import Link from "next/link";
 import Image from "next/image";
 import Layout from "../../../components/layout";
+import utilStyles from "../../../styles/utils.module.css";
+
+
+
 
 export default function Shablon() {
   return (
     <Layout>
-      <h1>О Боге</h1>
+      <div className={utilStyles.menu}> <h1>О Боге</h1></div>
 
+      <div className={utilStyles.menu}>
       <h2>
-        <Link href="/">
-          {/* <a className="foo" target="_blank" rel="noopener noreferrer">
-        Back to home
-      </a> */}
-          На главную
-        </Link>
+        <Link href="/">На главную</Link>
       </h2>
+      </div>
       <h2>
         <Link href="/homepage/menu_ru/menu">
           {/* <a className="foo" target="_blank" rel="noopener noreferrer">
