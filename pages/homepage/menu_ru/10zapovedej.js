@@ -6,7 +6,7 @@ import utilStyles from "../../../styles/utils.module.css";
 
 
 
-export default function Shablon() {
+export default function DesjatZapovedej() {
   return (
     <Layout>
      
@@ -26,6 +26,11 @@ export default function Shablon() {
          
           Назад
         </Link>
+      </h2>
+      </div>
+      <div className={utilStyles.menu}>
+      <h2>
+        <Link href="/homepage/menu_ru/1zapoved">1 заповедь</Link>
       </h2>
       </div>
       </div>
