@@ -9,13 +9,14 @@ import utilStyles from "../../../styles/utils.module.css";
 export default function Shablon() {
   return (
     <Layout>
-      <div className={utilStyles.menu}> <h1>О Боге</h1></div>
+      <div className={utilStyles.menu}> <h1>lorem</h1></div>
 
       <div className={utilStyles.menu}>
       <h2>
         <Link href="/">На главную</Link>
       </h2>
       </div>
+      <div className={utilStyles.menu}>
       <h2>
         <Link href="/homepage/menu_ru/menu">
           {/* <a className="foo" target="_blank" rel="noopener noreferrer">
@@ -24,6 +25,7 @@ export default function Shablon() {
           Назад
         </Link>
       </h2>
+      </div>
     </Layout>
   );
 }
